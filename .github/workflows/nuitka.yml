@@ -38,7 +38,7 @@ jobs:
      run: pip install -r requirements.txt
    - name: Run build script
      if: success()
-     run: python D:\a\pyro\pyro\build.py --no-zip
+     run: python build.py --no-zip
    - name: Upload artifact
      if: success()
      uses: actions/upload-artifact@v4
