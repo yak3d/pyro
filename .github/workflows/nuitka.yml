@@ -44,4 +44,4 @@ jobs:
      uses: actions/upload-artifact@v4
      with:
       name: pyro-master-${{ github.event.repository.pushed_at }}
-      path: D:\a\pyro\pyro\pyro.dist
+      path: pyro.dist
