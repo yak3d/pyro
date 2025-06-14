@@ -1,6 +1,7 @@
 name: GitHub CI
 
 on:
+ workflow_dispatch:
  push:
   paths:
    - 'build.py'
@@ -10,6 +11,7 @@ on:
    - 'tools/**'
   branches:
    - master
+ 
 
 jobs:
  build:
